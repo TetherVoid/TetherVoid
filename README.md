@@ -21,12 +21,14 @@ Students write down the hardest parts of their week, so Mindful is built on one 
 - row-level security on every table, with the access rules covered by database tests
 - consent first: nothing is shared until you say so
 - nothing a user writes ever reaches the AI, the logs or a URL
-
+- 
 ## How I build
 
-AI agents write code fast, and mistakes ship just as fast. So mine work inside guardrails: hooks that block pushes and remote database calls, a verify step that must pass before any commit, and a written approval step before anything touches production.
+I work with AI agents, and I don't trust them. Not in a hostile way, more like a pilot trusts autopilot.
 
-I'd rather ship a small change I can trust than a big one I can't.
+Every change passes through gates I wrote myself. Some actions are simply impossible for the machine, however confident it sounds. The rest has to survive review, tests and a second opinion before it earns a place in the codebase.
+
+The fastest way to go wrong is to move quickly in a direction you can't reverse. Most of what I've built is about making sure I don't.
 
 ## Toolbox
 
