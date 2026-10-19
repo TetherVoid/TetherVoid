@@ -21,7 +21,7 @@ Students write down the hardest parts of their week, so Mindful is built on one 
 - row-level security on every table, with the access rules covered by database tests
 - consent first: nothing is shared until you say so
 - nothing a user writes ever reaches the AI, the logs or a URL
-- 
+  
 ## How I build
 
 I work with AI agents, and I don't trust them. Not in a hostile way, more like a pilot trusts autopilot.
