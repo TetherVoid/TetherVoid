@@ -1,4 +1,4 @@
-<h1 align="center">tether</h1>
+<h1 align="center">TetherVoid</h1>
 
 <p align="center"><em>Software for the things you'd rather keep to yourself.</em></p>
 
