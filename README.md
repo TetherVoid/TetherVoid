@@ -1,31 +1,41 @@
-# TetherVoid
+<h1 align="center">tether</h1>
 
-I build software, and I'm drawn to the places where technology, money and law meet.
+<p align="center"><em>Software for the things you'd rather keep to yourself.</em></p>
 
-## What I'm working on
+<p align="center">
+  I build at the point where technology, money and law meet.
+</p>
 
-**Chaonance** is a local-first personal-finance tool, currently in design. Instead of another expense tracker, it focuses on decisions: a balance sheet, cash-flow runway, stress tests, and decision memos where you write down a prediction and a confidence level, then review it later and score how well calibrated you were. Money is stored as exact integer amounts, and your data stays on your device. It will never give investment advice.
+---
 
-## Shipped
+## Now: Chaonance
 
-**[Mindful](https://github.com/TetherVoid/Mindful)** is a live wellbeing journal for students, covering mood, habits and CBT-style thought records. The people who use it write sensitive things, so privacy is built in as a feature:
+Most finance apps tell you what you spent. **Chaonance asks what you decided, and whether you were right.**
 
-- row-level security on every table, with access rules covered by database tests
-- explicit consent before anything is shared
+It's a local-first personal-finance tool, currently in design. It has a balance sheet, cash-flow runway and stress tests, plus decision memos: write down a prediction and how confident you are, come back later, and get scored on how well calibrated you were. Money is stored as exact integer amounts, your data never leaves your device, and it will never give you investment advice.
+
+## Shipped: [Mindful](https://github.com/TetherVoid/Mindful)
+
+Students write down the hardest parts of their week, so Mindful is built on one rule: **what you write stays yours.** It's a live wellbeing journal for mood, habits and CBT-style thought records.
+
+- row-level security on every table, with the access rules covered by database tests
+- consent first: nothing is shared until you say so
 - nothing a user writes ever reaches the AI, the logs or a URL
 
 ## How I build
 
-I work with AI coding agents and put guardrails around them: hooks that block pushes and remote database calls, a verify step that has to pass before any commit, and a written approval step before anything touches production. I'd rather ship a small change I can trust than a big one I can't.
+AI agents write code fast, and mistakes ship just as fast. So mine work inside guardrails: hooks that block pushes and remote database calls, a verify step that must pass before any commit, and a written approval step before anything touches production.
 
-## Stack
+I'd rather ship a small change I can trust than a big one I can't.
 
-JavaScript, React, Vite, Supabase (Postgres, RLS), Vercel, Git
+## Toolbox
 
-## Interests
+`JavaScript` · `React` · `Vite` · `Supabase` · `Postgres + RLS` · `Vercel` · `Git`
 
-Corporate law, M&A, private equity, valuation and deal structures.
+## What pulls me in
 
-## Contact
+Corporate law, M&A, private equity, valuation and deal structures, and the question of how people make decisions when the stakes are real.
 
-The best way to reach me is to open an issue or discussion on [Mindful](https://github.com/TetherVoid/Mindful).
+## Say hello
+
+Open an issue or discussion on [Mindful](https://github.com/TetherVoid/Mindful).
